@@ -5,8 +5,7 @@
 | method | path | purpose|
 |---| --- | --- |
 GET | / | Home page|
---|--
-GET | /places | Places index page 
+GET | /places | Places index page
 POST | /places | Create new place 
 GET | /places/new | Form page for creating new place 
 GET | /places/:id | Details about a particular place 
