@@ -12,6 +12,14 @@ function edit_form (data) {
                     <label htmlFor="name">Place Name</label>
                     <input className="form-control" id="name" name="name" value={data.place.name} required/>
                   </div>
+                  <div className="form-group col-sm-4">
+                    <label htmlFor="founded">Founded</label>
+                    <input className="form-control" 
+                      id="founded" 
+                      name="founded" 
+                      value={data.place.founded} 
+                    />
+                  </div>
                   <div className="form-group col-sm-6">
                     <label htmlFor="pic">Place Picture</label>
                     <input className="form-control" id="pic" name="pic" />
